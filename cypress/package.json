@@ -1,0 +1,26 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Mariam",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^14.1.0",
+    "mocha": "^11.1.0"
+  },
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.3.0",
+    "chai": "^4.3.6",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-xpath": "^2.0.1"
+  }
+}
