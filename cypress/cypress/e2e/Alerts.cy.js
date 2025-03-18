@@ -28,6 +28,7 @@ describe("Interact with UI elements", () => {
     },
     );
     //alerts 
+    //
     
     //2) Confiramation alert : that have "OK" and "Cancel" button 
     it("Js Confrim OK Alerts", () => {
