@@ -35,6 +35,7 @@ describe("Interact with UI elements", () => {
         cy.visit("https://moatazeldebsy.github.io/test-automation-practices/#/alerts");
 
         //identify button alert 
+        //
         cy.get("[data-test='confirm-button']").click();
 
         cy.on('window:confirm', (alertMessage) => {
