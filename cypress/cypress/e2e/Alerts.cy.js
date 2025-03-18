@@ -27,7 +27,8 @@ describe("Interact with UI elements", () => {
         cy.get("[data-test='result-container']").should('have.text', "Last action: Alert shown");
     },
     );
-
+    //alerts 
+    
     //2) Confiramation alert : that have "OK" and "Cancel" button 
     it("Js Confrim OK Alerts", () => {
 
