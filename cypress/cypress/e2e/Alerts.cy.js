@@ -21,7 +21,6 @@ describe("Interact with UI elements", () => {
             expect(alertMessage).to.contains("This is a simple alert!");
 
 
-        //Hello github
         },);
 
         //cy.get("[data-test='result-container']").should('contain', "Alert shown");
